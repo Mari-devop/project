@@ -1,38 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto+Slab:wght@300;700&display=swap');
 .App {
   text-align: center;
+  background-color:#839695;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar{
+  background-color: #112B3E;
+  overflow: hidden;
+  height: 83px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container a{
+ float: left;
+ color: #f2f2f2;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+ font-size: 36px;
+ font-weight: 700;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.row{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.row > .col{
+  background-color: #112B3E;
+  margin: 10px;
+  padding: 20px;
+  font-size: 24px;
+  line-height: 32px;
+  color:aliceblue
+}
+.card-img{
+  width: 420px;
+  height: 299px;
 }
 
-.App-link {
-  color: #61dafb;
+a{
+  text-decoration: none;
+  color:rgb(169, 247, 247)
 }
+a:visited{
+color: azure;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+a:hover{
+  color: #839695;
 }
