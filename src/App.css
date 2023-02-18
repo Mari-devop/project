@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&family=Roboto+Slab:wght@300;700&display=swap');
+
 .App {
   text-align: center;
   background-color:#839695;
@@ -9,14 +10,22 @@
   overflow: hidden;
   height: 83px;
 }
-.container a{
+
+.container button{
  float: left;
- color: #f2f2f2;
+ color: #f8f5f5;
  text-align: center;
  padding: 14px 16px;
  text-decoration: none;
  font-size: 36px;
  font-weight: 700;
+ background-color:#112B3E;
+ border:none;
+ opacity: 0.6;
+ transition: 0.3s;
+}
+.container button:hover{
+  opacity: 1
 }
 .row{
   display: flex;
@@ -33,15 +42,35 @@
   width: 420px;
   height: 299px;
 }
-
+.card-text{
+  color:#839695
+}
 a{
   text-decoration: none;
-  color:rgb(169, 247, 247)
+ 
 }
-a:visited{
-color: azure;
 
-}
 a:hover{
   color: #839695;
 }
+
+.article-title{
+  color:aliceblue
+}
+.article{
+    height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dark{
+  color:#112B3E
+}
+.col-lg-6{
+  padding-top: 20px;
+}
+#comment-body{
+  height: 100px;
+}
+
+
