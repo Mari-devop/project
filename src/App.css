@@ -5,6 +5,17 @@
   text-align: center;
   background-color:#839695;
 }
+.main{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 15px;
+  flex-wrap: wrap;
+  
+}
+.main > .card{
+  width: 30%;
+}
+
 .navbar{
   background-color: #112B3E;
   overflow: hidden;
@@ -27,9 +38,7 @@
 .container button:hover{
   opacity: 1
 }
-.row{
-  display: flex;
-}
+
 .row > .col{
   background-color: #112B3E;
   margin: 10px;
@@ -43,7 +52,7 @@
   height: 299px;
 }
 .card-text{
-  color:#839695
+  color:#3aede4
 }
 a{
   text-decoration: none;
@@ -71,6 +80,10 @@ a:hover{
 }
 #comment-body{
   height: 100px;
+}
+.contain{
+  background-color:aliceblue;
+
 }
 
 
